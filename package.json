@@ -1,0 +1,11 @@
+{
+  "name": "node-site",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/amorsey/node-site.git",
+  "author": "<amorsey@lumigrow.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
