@@ -1,11 +1,12 @@
-const path = require('path')
+const path = require("path")
+const webpack = require("webpack")
 
 module.exports = {
   "mode": "development",
-  "entry": "src/index.js",
+  "entry": "./src/index.js",
   "output": {
     "path": __dirname+'/static',
-    "filename": "[name].[chunkhash:8].js"
+    "filename": "./index.js"
   },
   "module": {
     "rules": [
@@ -13,23 +14,15 @@ module.exports = {
         "test": /\.js$/,
         "exclude": /node_modules/,
         "use": {
-          "loader": "babel-loader",
-          "options": {
-            "presets": [
-              "env",
-              "react"
-            ]
-          }
+          "loader": "babel-loader"
         }
-      },
-      {
-        "test": /\.scss$/,
-        "use": [
-          "style-loader",
-          "css-loader",
-          "sass-loader"
-        ]
       }
     ]
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'src/'),
+    publicPath: "http://localhost:3000/dist/",
+    hotOnly: true,
+    port: 9000
   }
-}
+};
