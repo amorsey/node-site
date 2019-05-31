@@ -5,7 +5,8 @@ module.exports = {
   "mode": "development",
   "entry": "./src/index.js",
   "output": {
-    "path": __dirname+'/static',
+    "path": __dirname + "/dist",
+
     "filename": "./index.js"
   },
   "module": {
@@ -18,11 +19,5 @@ module.exports = {
         }
       }
     ]
-  },
-  devServer: {
-    contentBase: path.join(__dirname, 'src/'),
-    publicPath: "http://localhost:3000/dist/",
-    hotOnly: true,
-    port: 9000
   }
 };

@@ -10,7 +10,6 @@ const Index = () => {
 };
 
 
-
 ReactDOM.render(
   <Index />,
   document.getElementById("root")
