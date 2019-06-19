@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Component } from 'react'
 import ReactDOM from "react-dom";
+import LandingPage from "./components/LandingPage"
+
 
 const Index = () => {
   return (
-    <div>
-      Hello World
-    </div>
+      <LandingPage/>
   )
 };
 
