@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 const Feed = () => {
   return(
-    <div>
+    <div className = "feed">
       Feed
     </div>
   )
