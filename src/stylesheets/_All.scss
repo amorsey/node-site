@@ -1,24 +1,4 @@
-$primary-color: #3A405A;
-$secondary-color: #92AFD7;
-$filler-color: #8D8D92;
-$primary-font: Helvetica;
-$secondary-font: sans-serif;
-
 * {
   margin: 0;
   padding: 0;
-}
-
-.landing-page {
-  background-color: $filler-color;
-  width: 100vw;
-  height: 100vw;
-  .banner {
-    background-color: $primary-color;
-    color: white;
-  }
-
-  .feed {
-    background-color: $secondary-color;
-  }
 }

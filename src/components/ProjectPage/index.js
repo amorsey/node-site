@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 
-
-const ArticlePage = () => {
+const ProjectPage = () => {
   return(
     <div>
-      ArticlePage
+      ProjectPage
     </div>
   );
 };
 
-export default ArticlePage;
+export default ProjectPage;

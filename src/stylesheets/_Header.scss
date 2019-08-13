@@ -1,0 +1,37 @@
+@import "variables";
+
+.nav-bar {
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+
+  .nav-buttons {
+  display: flex;
+  padding: 10px;
+  }
+
+  .home-logo {
+    display: inline-block;
+    font-size: 35px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: $neutral-color;
+    white-space: nowrap;
+  }
+
+  .header-link {
+    font-size: 20px;
+    display: flex;
+    color: $neutral-color;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    vertical-align: middle;
+    align-items: center;
+  }
+
+  .header-link:hover {
+    background-color: #F3F3F3;
+  }
+}
