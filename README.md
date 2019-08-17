@@ -1,3 +1,3 @@
 # Personal Website
 
-Still a word in progress.
+Still a work in progress.
